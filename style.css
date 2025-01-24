@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: poppins;
+    font-weight: 500;
+    background: linear-gradient(100deg, #e3f1e7, #feefc7);
+}
+
+#pad {
+    margin: 0 200px;
+}
+
+/*Sticker CSS*/
+.download-app-sticker {
+    max-width: 150px;
+    position: fixed;
+    left: 1300px;
+    bottom: 20px;
+    z-index: 10;
+}
+
+
+/*Navbar CSS*/
+nav {
+    top: 20px;
+    left: 200px;
+    right: 250px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 5px 25px;
+    width: calc(100% - 450px);
+    z-index: 10;
+    background: rgba(200, 200, 200, 0.4);
+    backdrop-filter: blur(15px);
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.store-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.store-logo-text {
+    font-family: poppins;
+    font-size: 10px;
+}
+
+
+/*Opening Text CSS*/
+.opening-text {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.opening-text p {
+    margin: 100px 0 40px 0;
+}
+
+
+/*Features CSS*/
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px 50px 80px;
+}
+
+.feature {
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.feature img {
+    width: 1.5rem;
+}
+
+
+/*Hero Image CSS*/
+.hero-container {
+    /* margin: 0 200px; */
+    height: 650px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(242, 249, 239);
+    border-radius: 70px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.hero-container img {
+    position: absolute;
+}
+
+.phone-background {
+    bottom: 0;
+    margin-top: auto;
+    max-height: 90%;
+}
+
+.phone-app {
+    bottom: 0;
+    margin-top: auto;
+    max-height: 100%;
+}
+
+.info-msg {
+    position: absolute;
+    font-size: 8px;
+    left: 645px;
+    bottom: 3px;
+    color: 787F88;
+}
+
+
+/*Why Bright CSS*/
+.why-bright {
+    padding: 80px 0px;
+    background-color: white;
+}
+
+.why-bright-text {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#why-line {
+    margin: 40px 220px;
+    border: 1px solid #d5d7db;
+}
+
+.why-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-image-detail {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/*Partner Logos CSS*/
+.partner-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px 230px;
+    background-color: #f4f5f8;
+}
+
+.partner-logos img {
+    max-width: 9rem;
+}
+
+/*Steps to pay CSS*/
+.steps-to-pay {
+    padding: 100px 0;
+    background-color: #f6fef7;
+}
+
+.steps-header-text {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+#step-img {
+    background-color: white;
+    max-height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#sequence {
+    font-size: 1.5rem;
+    color: #17c95f;
+}
+
+#bold {
+    font-size: 2rem;
+}
+
+#step-sub-detail {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #787f88;
+    line-height: 35px;
+}
+
+.apply-now {
+    display: flex;
+    gap: 20px;
+}
+
+.apply-now p:hover {
+    color: #17c95f;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#step-line1 {
+    margin: 35px 0;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(-90deg, #d5d7db00, #bae8cb);
+}
+
+#step-line2 {
+    margin: 35px 0;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(90deg, #d5d7db00, #bae8cb);
+}
+
+#step-line3 {
+    margin: 35px 200px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(90deg, #d5d7db00, #bae8cb);
+}
+
+
+/*Review Container CSS*/
+.lower-container {
+    background-color: #ffffff;
+}
+
+.line-1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.line-2 {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.reviews {
+    display: flex;
+    gap: 20px;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f5f8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.review {
+    font-size: 0.6rem;
+    line-height: 12px;
+    padding-bottom: 10px;
+}
+
+#star-rating {
+    padding-bottom: 10px;
+}
+
+.reviewer {
+    font-size: 0.6rem;
+}
+
+
+/*FAQ Container CSS*/
+.faq-container {
+    padding: 120px 0px;
+}
+
+.faq-header-text {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.faq-container .faq-div-line {
+    margin: 70px 0;
+    border: 1px solid #d5d7db;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.tick {
+    transition: transform 0.3s ease-out;
+    width: 30px;
+    height: auto;
+}
+
+.tick:hover {
+    transform: scale(1.3);
+}
+
+.cross {
+    transition: transform 0.3s ease-out;
+    width: 25px;
+    height: auto;
+}
+
+.cross:hover {
+    transform: scale(1.3);
+}
+
+#line {
+    margin: 35px 0;
+    border: 1px solid #d5d7db;
+}
+
+
+/*Crush Debt Banner CSS*/
+.crush-debt-banner {
+    background: linear-gradient(#e5f1e3, #bae8cb);
+}
+
+.int {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#e5f1e3, #bae8cb);
+}
+
+.tagline {
+    flex-grow: 2;
+    font-size: 3rem;
+}
+
+.tagline-image {
+    flex-grow: 1;
+    max-height: 40vh;
+}
+
+
+/*Footer CSS*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 0.8rem;
+    line-height: 17px;
+    font-weight: 100;
+    padding: 100px 0;
+    color: #787f88;
+}
